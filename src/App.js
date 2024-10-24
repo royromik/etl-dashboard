@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header.js';
+import MetadataSection from './components/MetadataSection.js';
+import DataTable from './components/DataTable.js';
+import WorkflowSection from './components/WorkflowSection.js';
+import "./App.scss";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <div className="main-content">
+        {/* Header, Metadata and DataTable */}
+        <Header />
+        <MetadataSection />
+        <div className="data-table-section">
+          <DataTable />
+        </div>
+      </div>
+
+        <WorkflowSection />
     </div>
   );
-}
+};
 
 export default App;
