@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/etl-dashboard/static/css/main.3257efca.css",
+    "main.js": "/etl-dashboard/static/js/main.2bb7c25f.js",
+    "static/js/453.1dbf8bb5.chunk.js": "/etl-dashboard/static/js/453.1dbf8bb5.chunk.js",
+    "index.html": "/etl-dashboard/index.html",
+    "main.3257efca.css.map": "/etl-dashboard/static/css/main.3257efca.css.map",
+    "main.2bb7c25f.js.map": "/etl-dashboard/static/js/main.2bb7c25f.js.map",
+    "453.1dbf8bb5.chunk.js.map": "/etl-dashboard/static/js/453.1dbf8bb5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3257efca.css",
+    "static/js/main.2bb7c25f.js"
+  ]
+}
